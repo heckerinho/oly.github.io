@@ -26,12 +26,13 @@ h1:hover {
 }    
 
 button {
-  color: #B8B8B8;
+  background-color: #B8B8B8;
   transition: 0.5s;
+  font-family: ZHCN, sans-serif;
 }
 
 button:hover {
-  color: #32A09C;
+  background-color: #32A09C;
 }
 
 div {
