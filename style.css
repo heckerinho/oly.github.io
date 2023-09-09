@@ -13,7 +13,7 @@ p {
 }
 
 p:hover {
-  color: #32A09C;
+  color: #7BC6C6;
 }
 
 h1 {
@@ -24,6 +24,15 @@ h1 {
 h1:hover {
   color: #32A09C;
 }    
+
+button {
+  color: #B8B8B8;
+  transition: 0.5s;
+}
+
+button:hover {
+  color: #32A09C;
+}
 
 div {
   text-align: center;
