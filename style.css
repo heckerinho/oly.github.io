@@ -1,7 +1,7 @@
 @font-face { font-family: ZHCN; src: url('zhcn.ttf'); }
 
 body {
-  background-color: #2B283B;
+  background-color: #496473;
   color: white;
   font-family: ZHCN, sans-serif;
   text-align: center;
@@ -46,7 +46,7 @@ a:active {
 }
 
 .card {
-  background-color: #71548E;
+  background-color: #2F3A48;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
   transition: 0.3s;
   width: 40%;
@@ -56,7 +56,7 @@ a:active {
 }
 
 .card:hover {
-  box-shadow: 0 12px 20px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 14px 22px 0 rgba(0,0,0,0.5);
 }
 
 .container {
