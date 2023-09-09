@@ -1,0 +1,64 @@
+@font-face { font-family: ZHCN; src: url('zhcn.ttf'); }
+
+body {
+  background-color: #2B283B;
+  color: white;
+  font-family: ZHCN, sans-serif;
+  text-align: center;
+}
+
+p {
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+p:hover {
+  color: #32A09C;
+}
+
+h1 {
+  color: #ffffff;
+  transition: 0.5s;
+}
+
+h1:hover {
+  color: #32A09C;
+}    
+
+div {
+  text-align: center;
+}
+
+a:link {
+  color: white;
+}
+
+a:hover {
+  color: white;
+}
+
+a:visited {
+  color: #EFEFFF
+}
+
+a:active {
+  color: #EEEEEE
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 40%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card:hover {
+  box-shadow: 0 12px 20px 0 rgba(0,0,0,0.3);
+}
+
+.container {
+  padding: 2px 16px;
+  text-align: center;
+}
