@@ -77,3 +77,22 @@ a:active {
   padding: 2px 16px;
   text-align: center;
 }
+
+img.logo{
+    filter: drop-shadow(0px 0px 0px #fff);
+    transition: 0.5s;
+}
+
+img.logo:hover{
+    filter: drop-shadow(0px 0px 5px #fff);
+    transition: 0.5s;
+}
+
+  #content-desktop {display: block;}
+  #content-mobile {display: none;}
+
+  @media screen and (max-width: 768px) {
+
+  #content-desktop {display: none;}
+  #content-mobile {display: block;}
+}
