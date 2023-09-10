@@ -7,10 +7,17 @@
     <title>Poll</title>
     </head>
   <body>
-    <div class="poll">
-      <div class="question"></div>
-      <div class="answers"></div>
+    <div id="poll">
+        <h3>Who's your favorite character?</h3>
+        <form>
+            Albedo: <input type="radio" name="vote" value="0" onclick="getVote(this.value)"><br>
+            Hu Tao: <input type="radio" name="vote" value="1" onclick="getVote(this.value)"><br>
+            Tartaglia: <input type="radio" name="vote" value="2" onclick="getVote(this.value)"><br>
+            Zhongli: <input type="radio" name="vote" value="3" onclick="getVote(this.value)">
+        </form>
     </div>
       <script src="poll.js"></script>
   </body>
+</html>
+</body>
 </html>
